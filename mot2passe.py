@@ -6,7 +6,7 @@ while True:
     try:
         wordlist = open(wordlist_user, 'r', encoding='utf-8', errors='ignore')
         hash_input = input("veuillez fournir votre hash : ")
-        choix = input("faites votre choix de mode : ")
+        choix = input("faites votre choix de mode : md5\n sha1\n sha224\n sha256\n sha384\n sha512\n blake2b\n blake2s\n ")
 
         # Parcours de chaque ligne de la liste
         for word in wordlist:
