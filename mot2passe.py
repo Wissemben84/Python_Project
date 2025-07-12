@@ -1,7 +1,7 @@
 import hashlib
 
 
-wordlist_user = r"C:\Users\wissem\OneDrive - Groupe ESAIP\Bureau\mes_programmes_python\crack de mot de passe\rockyou.txt"
+wordlist_user = r"C:\Users\wissem\OneDrive - Groupe ESAIP\Bureau\mes_programmes_python\crack de mot de passe\rockyou.txt" #chemin de la wordlist à changer
 while True:
     try:
         wordlist = open(wordlist_user, 'r', encoding='utf-8', errors='ignore')
