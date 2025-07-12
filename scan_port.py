@@ -14,7 +14,7 @@ print("-"*60)
 
 t1 = datetime.now()
 try:
-    for port in range(79,85):                  #à changer pour scanner les ports souhaitées
+    for port in range(79,85):                  #à changer pour scanner les ports souhaités
         connexion = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         resultat = connexion.connect_ex((remote_server_IP, port))
         if resultat==0:
